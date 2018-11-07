@@ -93,23 +93,23 @@ function infoOn() {
 
 	if (event.srcElement.id == "stt_dull_mb") {
 		n = dull_mb;
-		cop = "dull";
+		cop = "";
 		mop = "";
 	} else if (event.srcElement.id == "stt_dull_nmb") {
 		n = dull_nmb;
-		cop = "dull";
+		cop = "";
 		mop = "non-";
 	} else if (event.srcElement.id == "stt_bright_mb") {
 		n = bright_mb;
-		cop = "bright";
+		cop = "don't";
 		mop = "";
 	} else {
 		n = bright_nmb;
-		cop = "bright";
+		cop = "don't";
 		mop = "non-";
 	}
 
-	info.innerHTML = "<br>" + n / totalSubmissions * 100 + "% customers are " + mop + "members and wear " + cop + " colors."
+	info.innerHTML = "<br>" + n / totalSubmissions * 100 + "% customers are " + mop + "members and " + cop + " wear glasses."
 
 }
 
