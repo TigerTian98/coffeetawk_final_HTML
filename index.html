@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Coffeetawk Prototype
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+	<img id="img_bg" src="images/bg1.jpg">
+
+	<!-- - - - - - - - - - - - - - - - -->
+
+	<div id="page1">
+		<div class="container" id="header">
+			<br>
+			Welcome to glasses/membership correlation calculator.
+		</div>
+		
+		<div class="container" id="ctn_sms">
+			<br>
+			<div>
+				1. Does the customer wear glasses?
+				<form>
+					<input checked id="q1y" name="color" type="radio" value="1">
+					<label for="q1y">Yes</label>
+					<input id="q1n" name="color" type="radio" value="0">
+					<label for="q1n">No</label>
+				</form>
+			</div>
+			<br>
+			<div>
+				2. Membership?
+				<form>
+					<input checked id="q2y" name="membership" type="radio" value=1>
+					<label for="q2y">Yes</label>
+					<input id="q2n" name="membership" type="radio" value="0">
+					<label for="q2n">No</label>
+				</form>
+				<div class="button" id="submit" onclick="submitThis()">
+					Submit
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="ctn_mngsms">
+			<br>
+			<div id="tt_sms">
+				Total submissions: 0
+			</div>
+			<div class="button" id="mngsms" onclick="manageSubmission()">
+				Manage Submission
+			</div>
+		</div>
+
+	</div>
+
+	<!-- - - - - - - - - - - - - - - - -->
+
+	<div id="page2">
+
+		<div class="container" id="ctn_clear">
+			<div class="button" id="clear" onclick="clearAll()">
+				Clear All Submissions
+			</div>	
+		</div>
+
+		<div class="container" id="ctn_statistics">
+			<div id="stt_bar">
+				<div class="stt_bars" id="stt_dull_mb" onmouseover="infoOn()" onmousemove="infoMove()" onmouseout="infoOff()"></div>
+				<div class="stt_bars" id="stt_dull_nmb" onmouseover="infoOn()" onmousemove="infoMove()" onmouseout="infoOff()"></div>
+				<div class="stt_bars" id="stt_bright_mb" onmouseover="infoOn()" onmousemove="infoMove()" onmouseout="infoOff()"></div>
+				<div class="stt_bars" id="stt_bright_nmb" onmouseover="infoOn()" onmousemove="infoMove()" onmouseout="infoOff()"></div>
+			</div>
+			<div id="statistics">
+			</div>
+		</div>
+
+		<div class="container" id="ctn_bk">
+			<div class="button" id="back" onclick="back()">
+				Back
+			</div>
+		</div>
+
+		<div id="info"></div>
+
+	</div>
+
+	<!-- - - - - - - - - - - - - - - - -->
+
+</body>
+<script type="" src="js/script.js"></script>
+</html>

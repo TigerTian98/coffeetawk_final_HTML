@@ -1,0 +1,173 @@
+body, html {
+	color: black;
+	font-family: georgia;
+	font-size: 4.5vmin;
+	line-height: 5vmin;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+	user-select: none;
+}
+
+input, label {
+	cursor: pointer;
+}
+
+.button {
+	border-radius: 2vh;
+	cursor: pointer;
+	font-weight: bold;
+	left: 5%;
+	line-height: 6vmin;
+	position: relative;
+	text-align: center;
+	width: 90%;
+}
+
+.button:hover {
+	color: red;
+}
+
+/*Page 1 buttons*/
+
+#submit {
+	top: 2.5vh;
+}
+
+#mngsms {
+
+}
+
+/*Page 2 buttons*/
+
+#back {
+	top: 5vh;
+}
+
+#clear {
+	top: 5vh;
+}
+
+/*------------------------------*/
+
+.container {
+	background-color: #FFD428;
+	border-radius: 2vh;
+	box-shadow: 0 0 2vh black;
+	left: calc(50vw - 45vmin);
+	opacity: 0.95;
+	position: absolute;
+	text-align: center;
+	width: 90vmin;
+}
+
+/*Page 1 containers*/
+
+#header {
+	height: 20vh;
+	top: 5vh;
+}
+
+#ctn_sms {
+	display: block;
+	height: 40vh;
+	top: 30vh;
+}
+
+#ctn_mngsms {
+	height: 20vh;
+	top: 75vh;
+}
+
+/*Page 2 containers*/
+
+#ctn_clear {
+	height: 15vh;
+	top: 5vh;
+}
+
+#ctn_statistics {
+	height: 50vh;
+	top: 25vh;
+}
+
+#ctn_bk {
+	height: 15vh;
+	top: 80vh;
+}
+
+/*------------------------------*/
+
+#img_bg {
+	width: 100vmax;
+}
+
+#info {
+	background-color: white;
+	border-radius: 5vh;
+	border-top-left-radius: 0;
+	box-shadow: 0 0 5vh black;
+	display: none;
+	font-size: 20px;
+	height: 100px;
+	line-height: 20px;
+	margin: 10%;
+	opacity: 0.9;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+}
+
+/*-------------------------------*/
+
+#page2 {
+	display: none;
+}
+
+/*------------------------------*/
+
+#stt_bar {
+	border-radius: 2vh;
+	box-shadow: 0 0 2vh black;
+	height: 50%;
+	left: 5%;
+	position: relative;
+	top: 5%;
+	width: 90%;
+}
+
+.stt_bars {
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 25%;
+}
+
+#stt_dull_mb {
+	background-color: #C64545;
+	border-bottom-left-radius: 2vh;
+	border-top-left-radius: 2vh;
+}
+
+#stt_dull_nmb {
+	background-color: #c67244;
+}
+
+#stt_bright_mb {
+	background-color: #c69244;
+}
+
+#stt_bright_nmb {
+	background-color: #c6b444;
+	border-bottom-right-radius: 2vh;
+	border-top-right-radius: 2vh;
+}
+
+#statistics {
+	height: 35%;
+	left: 5%;
+	position: relative;
+	text-align: center;
+	top: 10%;
+	width: 90%;
+}
