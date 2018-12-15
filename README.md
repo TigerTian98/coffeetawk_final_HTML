@@ -7,4 +7,4 @@ It is an application made for coffee shop owners that want to survey their custo
 - Choose "Yes" or "No"
 - Sumbit response
 - View Result
-### Demo Gif shown [here](https://i.pinimg.com/originals/9f/d3/c8/9fd3c8c8fd770e4f9782bc6f3e582c0e.gif)
+### Demo Gif shown ![here](https://i.pinimg.com/originals/9f/d3/c8/9fd3c8c8fd770e4f9782bc6f3e582c0e.gif)
